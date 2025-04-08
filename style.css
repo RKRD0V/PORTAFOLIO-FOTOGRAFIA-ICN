@@ -1,0 +1,77 @@
+@import url(https://use.typekit.net/yxm1ryj.css);
+
+body {
+    font-family: sans-serif;
+    background-color: #dbdbdb;
+    margin: 0;
+    color: #373737;
+}
+
+h1 {
+    font-family: "louvette-deck", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15vh;
+}
+
+h2 {
+    font-family: "louvette-deck", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vh;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 3vh;
+    text-align: start;
+}
+
+header {
+    background-image: url('PRACTICA 2 FOTO PUBLICIDAD.jpg');
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ededed;
+    height: 100vh;
+    mask-image: linear-gradient(black 80%,
+    transparent);
+}
+
+article {
+    margin: 20px 200px;
+}
+
+.Header {
+    margin: auto;
+    padding: 90px 0px;
+    text-align: center;
+    line-height: 10px;
+} 
+
+article {
+    text-align: center;
+    align-content: center;
+}
+
+.imagenes {
+    height: 500px;
+    align-content: center;
+    transition-duration: .5s;
+    box-shadow: 5px 5px 30px 0px #434343;
+}
+
+.imagenes:hover {
+    align-content: center;
+    height: 800px;
+    transition-duration: .5s;
+}
+
+footer {
+    background-color: black;
+    color: #dbdbdb;
+    height: 10vh;
+    text-align: center;
+    padding-top: 5vh;
+}
